@@ -1,23 +1,27 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Playlist Mirror</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <title>Spotify PKCE Single Page</title>
 </head>
 
 <body>
-    <header>
-        <h1>Playlist Mirror</h1>
-    </header>
-    <main>
-        <p>Spotify playlist to youtube playlist</p>
-        <p>I got here through github actions.</p>
-    </main>
-    <footer>
-    </footer>
+    <h1>Spotify Login (PKCE)</h1>
+    <div id="status"></div>
+    <div>
+        <button id="loginBtn">Login with Spotify</button>
+        <button id="logoutBtn" disabled>Logout</button>
+    </div>
+    <div>
+        <h2>spotify playlists</h2>
+        <button id="getPlaylistsBtn">Get Playlists</button>
+        <ul id="playlistsBox"></ul>
+
+        <h3>Tracks</h3>
+        <ul id="tracksBox"></ul>
+
+    </div>
     <script src="main.js"></script>
 </body>
 
