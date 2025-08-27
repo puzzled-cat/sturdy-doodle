@@ -11,3 +11,6 @@
 
 >For each item in the playlist, the application will attempt to find the matching audio / videos and add it to an unlisted playlist which then will be provided to them via a secure link.
 
+[Static S3 Link](http://sturdy-doodle.s3-website-eu-west-1.amazonaws.com/)
+
+[Cloudfront Link](d1s2ej9uh3i9p2.cloudfront.net)
