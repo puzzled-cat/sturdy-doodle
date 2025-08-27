@@ -13,4 +13,4 @@
 
 [Static S3 Link](http://sturdy-doodle.s3-website-eu-west-1.amazonaws.com/)
 
-[Cloudfront Link](d1s2ej9uh3i9p2.cloudfront.net)
+[Cloudfront Link](https://d1s2ej9uh3i9p2.cloudfront.net)
