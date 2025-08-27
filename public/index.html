@@ -1,21 +1,29 @@
 <!doctype html>
 <html lang="en">
 
+
 <head>
     <meta charset="utf-8" />
-    <title>Spotify PKCE Single Page</title>
+    <title>Sturdy Doodle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+    </style>
 </head>
 
 <body>
-    <h1>Spotify Login (PKCE)</h1>
+    <header>
+        <h1>Sturdy Doodle</h1>
+    </header>
     <div id="status"></div>
-    <div>
-        <button id="loginBtn">Login with Spotify</button>
-        <button id="logoutBtn" disabled>Logout</button>
+    <div class="auth">
+        <button class="block" id="loginBtn">Login with Spotify</button>
+        <button class="block" id="logoutBtn" disabled>Logout</button>
     </div>
     <div>
         <h2>spotify playlists</h2>
-        <button id="getPlaylistsBtn">Get Playlists</button>
+        <button class="block" id="getPlaylistsBtn">Get Playlists</button>
         <ul id="playlistsBox"></ul>
 
         <h3>Tracks</h3>
