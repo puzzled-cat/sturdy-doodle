@@ -202,7 +202,7 @@ async function onRefresh() {
     }
 }
 
-// --- Core flow on page load
+//Core flow on page load
 async function init() {
     const params = new URLSearchParams(window.location.search);
     const code = params.get('code');

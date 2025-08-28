@@ -1,0 +1,46 @@
+.slackey-regular {
+    font-family: "Slackey", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    font-family: "Slackey", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    color: #1DB954;
+    margin-top: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #FFFFFF;
+}
+
+button {
+    display: block;
+    background-color: #1DB954;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.block {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+button:hover {
+    background-color: #1ed760;
+}
